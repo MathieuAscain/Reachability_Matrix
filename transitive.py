@@ -35,8 +35,6 @@ def transition(matrix):
 	# initialization of a list for the recursive multiplication to find the final matrix
 	result = []
 
-	print("Dans la seconde fonction", matrix)
-
 	while True:
 		try:
 			length_path = int(input("Select the path length = "))
